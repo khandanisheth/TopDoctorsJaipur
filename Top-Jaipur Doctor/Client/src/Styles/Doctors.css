@@ -1,0 +1,177 @@
+.doctor-section {
+    padding: 32px;
+    margin: 0 0 32px 0;
+    text-align: center;
+    background-color: white;
+}
+.dt-title-content {
+    margin: 0 0 64px 0;
+}
+.dt-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-title > span {
+    position: relative;
+}
+.dt-title span::before {
+    content: '';
+    position: absolute;
+    width: 64%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+.dt-description {
+    margin: 64px auto 0;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    letter-spacing: .8px;
+    line-height: 1.8rem;
+}
+/* Doctor Cards */
+.dt-cards-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.dt-card {
+    width: 332px;
+    height: 400px;
+    gap: 32px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+.dt-card-img {
+    width: 100%;
+    height: 275px;
+    padding: 16px 32px 0;
+    background-position: center;
+    background-color: #DDE5F8;
+    border-radius: 20px;
+}
+.dt-card-name {
+    margin: 12px 0 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-card-title {
+    margin: 6px 0 8px;
+    color: #494949;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+}
+.dt-card-stars {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.dt-card-reviews {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+
+/* Dorctor Search*/
+.dt-search-input {
+    width: 40%;
+    margin: 8px 0;
+    margin-left: 30%;
+    padding: 0 12px;
+    display: block;
+    height: 40px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: #c9def4;
+    outline: transparent;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+  }
+  
+  .dt-more-button {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #1A8EFD;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+  }
+  
+  .dt-more-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .doctor-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .doctor-modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .doctor-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .doctor-modal-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+
+  
+  
+  
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .dt-title {
+        font-size: 32px;
+    }
+    .dt-description {
+        margin: 48px 0 0;
+        font-size: 18px;
+    }
+}
