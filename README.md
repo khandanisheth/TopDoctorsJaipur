@@ -137,13 +137,11 @@ node index.js
 
 👨‍💻 Developed By
 Mohammad Danish
-MCA (4th Semester)
-Rajasthan Technical University
 📧 khandanishindia04@gmail.com
 📱 8920424789
 
 
 📜 License
 This project is developed for academic purposes only.
-All rights reserved © 2023–2025 by Mohammad Danish, MCA, RTU.
+All rights reserved © 2023–2025 by Mohammad Danish.
 
